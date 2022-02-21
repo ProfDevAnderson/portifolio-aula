@@ -1,0 +1,214 @@
+/* Configuração ------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*  Background */
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagens/bg.png);
+    background-size: cover;
+
+}
+
+.cor-text-secundario{
+    color: #ffb20a;
+}
+
+/* Cabeçalho */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.nav-list{
+    display: flex;  
+    list-style: none;
+}
+
+.nav-list a{
+    color: white;
+    padding: 10px;
+}
+
+#logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+.boas-vindas{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+}
+
+.boas-vindas h1{
+    margin: 20px 0px;
+    font-size: 50px;
+}
+
+.boas-vindas h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid #ffb20a;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ffb20a;
+    font-weight: bold;
+    color: black;
+}
+
+/*  Sobre mim ******************** */
+#sobre{
+    width: 100%;
+    background-color: #191919;
+    padding: 100px 0px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#sobre img {
+    height: auto;
+    width: 300px;
+}
+.sobre-texto{
+    width: 300px;
+}
+
+.sobre-texto h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sobre-texto h5 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.sobre-texto p {
+  color: #ffb20a;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+/*  Serviços ******************* */
+
+.servico {
+    width: 100%;
+    background-color: #101010;
+}
+
+.servico .titulo{
+    padding-top: 30px;
+}
+
+.servico .titulo h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Card */
+.box {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    width: 330px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #191919;
+    margin-bottom: 20px;
+}
+.card:hover {
+    box-shadow: 0px 4px 8px 0px  #ffb20a;
+}
+.card i {
+    font-size: 40px;
+    color: #ffb20a;
+    margin: 20px 0px;
+}
+
+.card h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.card p{
+    padding: 20px;
+    color: #ffb20a;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+/*  Frase ****************** */
+
+.frase {
+    background-image: url(../imagens/bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.frase p{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#aspas {
+    font-size: 40px;
+}
+
+.frase #texto {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* Footer ******** */
+footer {
+ background-color: #101010;
+ width: 100%;
+ text-align: center;
+ padding: 20px 0px;
+}   
